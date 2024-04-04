@@ -35,4 +35,6 @@ urlpatterns = [
     path('homepage/',views.contactus_view),
     path('homepage/', views.common_css_view),
     path('contact us/', views.contactus_css_view),
+    re_path('^$', views.homepage_view),
+
 ]
