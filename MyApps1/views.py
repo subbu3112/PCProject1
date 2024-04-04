@@ -41,3 +41,13 @@ def uk_view(request):
 def usa_view(request):
     return render(request, 'PCAPP/USA.html')
 
+from django.shortcuts import render
+from django.http import HttpResponse
+def common_css_view(request):
+    return render(request, 'PCAPP/Home.html')
+
+def contactus_css_view(request):
+    return render(request, 'PCAPP/Home.html')
+
+def index_css_view(request):
+    return render(request, 'PCAPP/Home.html')

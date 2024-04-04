@@ -32,5 +32,7 @@ urlpatterns = [
     path('uae/', views.uae_view),
     path('uk/', views.uk_view),
     path('usa/', views.usa_view),
-
+    path('homepage/',views.contactus_view),
+    path('homepage/', views.common_css_view),
+    path('contact us/', views.contactus_css_view),
 ]
