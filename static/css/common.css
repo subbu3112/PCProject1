@@ -398,7 +398,7 @@ footer {
     #newsletter #address li div {
         font-size: 14px;
         width: auto;
-        text-align: -webkit-auto;
+        text-align: center;
         float: none;
         line-height: 2;
         display: inline-block;
