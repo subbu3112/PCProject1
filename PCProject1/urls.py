@@ -21,7 +21,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('Homepage/', views.homepage_view),
+    path('Home/', views.homepage_view),
     path('Aboutus/', views.aboutus_view),
     path('Australia/', views.australia_view),
     path('Canada/', views.canada_view),
